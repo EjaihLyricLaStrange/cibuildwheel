@@ -12,7 +12,7 @@ on:
       - 'noxfile.py'
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * 1'  # "At 06:00 on Monday."
+    - cron: '/***/'  # "At 06:00 on Monday."
 
 jobs:
   update-dependencies:
